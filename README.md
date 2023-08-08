@@ -14,6 +14,11 @@ The Anagram Finder is a Python application that helps you discover anagram group
 
 5. **User-Friendly Interaction**: The user-friendly interface ensures easy input of words and convenient display of anagram groups and non-anagram words.
 
+## Output
+
+![image](https://github.com/Kush3008/Anagram_finder/assets/83759659/abbf7e22-8d39-46b2-8a5d-fe2bb16999ad)
+
+
 ## How to Run
 
 1. Make sure you have Python installed on your system.
