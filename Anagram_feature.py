@@ -22,8 +22,8 @@ def find_anagrams(word_list):
         else:
             anagram_groups[sorted_word] = [word]
 
-    anagram_groups_list = list(anagram_groups.values())
-    non_anagrams = [group[0] for group in anagram_groups_list if len(group) == 1]
+    anagram_groups_list = [group for group in anagram_groups.values() if len(group) > 1]
+    non_anagrams = [word for word in word_list if word not in [item for group in anagram_groups_list for item in group]]
     return anagram_groups_list, non_anagrams
 
 # Function to find and display anagram groups and non-anagram words
