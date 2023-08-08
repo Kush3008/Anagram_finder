@@ -23,7 +23,7 @@ The Anagram Finder is a Python application that helps you discover anagram group
 
 1. Make sure you have Python installed on your system.
 
-2. Download the provided `anagram_finder_customtkinter.py` file.
+2. Download the provided `Anagram_feature.py` file.
 
 3. Open a terminal or command prompt.
 
@@ -32,7 +32,7 @@ The Anagram Finder is a Python application that helps you discover anagram group
 5. Run the following command:
 
    ```
-   python anagram_finder_customtkinter.py
+   python Anagram_feature.py
    ```
 
 6. The Anagram Finder application window will open, allowing you to input space-separated words and discover anagram groups and non-anagram words.
